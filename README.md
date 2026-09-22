@@ -20,5 +20,5 @@ transactions.py: Contains the logic for handling deposits, withdrawals, and for 
 2. Access the terminal or command prompt and go to the project directory.
 3. Run the main script.
 
-'''bash
+```bash
 python main.py
