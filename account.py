@@ -32,11 +32,14 @@ def create():
 
 def login():
     print("      LOGIN      ")
-
-    acc = int(input("Enter account number: "))
+    if(ac==1000):
+        print("Creat an account first")
+        return
+    acc = input("Enter account number: ")
     if not acc.isdigit():
         print("Enter valid account number")
         return None
+    acc=int(acc)
     if acc not in accounts:
         print("Account not found")
         return None
