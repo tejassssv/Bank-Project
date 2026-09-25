@@ -22,3 +22,16 @@ transactions.py: Contains the logic for handling deposits, withdrawals, and for 
 
 ```bash
 python main.py
+```
+
+**Instructions for Testing**
+
+To thoroughly test the application, try the following scenarios:
+
+Create an account: Start the app, choose the option to create an account, enter a name, and set a PIN. Note down the generated account number.
+
+Test validation: Try logging in with a fake account number or wrong PIN. The system should deny access.
+
+Test transactions: Log in successfully and try to deposit 500. Check the balance. Then try to withdraw 1000 (more than your balance) to ensure the insufficient funds warning pops up. Finally, withdraw a valid amount and check the balance again.
+
+Exit: Use the logout/exit options to ensure the program closes cleanly.
